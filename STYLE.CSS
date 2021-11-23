@@ -1,0 +1,219 @@
+/* NAVBAR */
+
+.navbar-heading {
+    position: relative;
+    left: 60px;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #aaa;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+}
+
+nav ul li a:active {
+    color: #555;
+}
+
+
+/* Header Text */
+
+.newyork {
+    font-family: New York Extra Large, serif;
+}
+
+.sfmono {
+    font-family: sf mono, sans-serif;
+}
+
+
+/* TOP-CONTAINER */
+
+.container-top {
+    padding-top: 40px;
+}
+
+.col-6top {
+    text-align: center;
+}
+
+
+/* YELLOW_IMAGE*/
+
+.container-image {
+    width: 100%;
+}
+
+
+/* MITA KATINAINEN SECTION */
+
+.container-avatar {
+    padding-top: 20px;
+}
+
+.newyork-med {
+    font-family: new york medium, sans-serif;
+}
+
+.avatar-image {
+    border-radius: 50%;
+}
+
+.h6 {
+    font-weight: 600;
+}
+
+
+/* BLACK LINE ABOVE MITA MATIKAINEN */
+
+.container-border {
+    border-top: 1px solid black;
+    border-width: 1px;
+}
+
+
+/* BLACK DOTTED LINE ABOVE MITA MATIKAINEN IN MIDDLE OF SITE */
+
+.container-border-1 {
+    border-top: 1px dotted grey;
+    padding: 10px;
+}
+
+.container-line {
+    padding-top: 45px;
+}
+
+.above-line {
+    padding-bottom: 40px;
+}
+
+
+/* NEXT ON THE PIPELINE TEXT */
+
+.pipeline-text {
+    font-size: 25px;
+}
+
+
+/* SHARE ON TWITTER & FB */
+
+.twitter-icon {
+    padding: 20px 20px 20px 40px;
+    color: black;
+    background-color: white;
+    width: 250px;
+    border: 1px solid grey;
+}
+
+.facebook-icon {
+    border: 1px solid grey;
+    padding: 20px 20px 20px 25px;
+    color: black;
+    background-color: white;
+    width: 250px;
+}
+
+
+/* TAGS LINKS */
+
+.tags {
+    color: black;
+    text-decoration: underline;
+}
+
+.tags:hover {
+    color: black;
+}
+
+
+/* EYES IMAGE */
+
+.eyes-img {
+    position: relative;
+    bottom: 50px;
+}
+
+
+/* IMAGE SECTION */
+
+.sfpro-disp {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+
+/* BLACK LINE B/w EYES IMG */
+
+.black-line {
+    border: 2px solid black;
+}
+
+
+/* NEWALETTER SECTION */
+
+.submit-btn {
+    color: white;
+    background-color: black;
+}
+
+.newsletter-padding {
+    padding-bottom: 40px;
+}
+
+.newsletter {
+    border-top: 5px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    padding: 30px;
+}
+
+
+/* FOOTER */
+
+.footer-links a {
+    color: white;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.newyork-sm {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 10px;
+    padding: 20px;
+}
+
+.footer-end {
+    padding-top: 60px;
+}
+
+.sfpro {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media screen and (max-width: 976px) {
+    div.footer-responsive {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 976px) {
+    div.footer-shown {
+        padding-right: 79px;
+    }
+}
+
+@media screen and (min-width: 976px) {
+    div.navbar-items {
+        position: relative;
+        left: 800px;
+    }
+}
